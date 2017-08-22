@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/test', function() {
-    return ["messages" => ["text" => "sample text1"]];
+    return response(["messages" => ["text" => "sample text1"]]);
 });
