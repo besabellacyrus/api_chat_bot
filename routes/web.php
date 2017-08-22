@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/test', function() {
-    return ["apple", "banana", "pineapple"];
+    return ["text" => "sample text1"];
 });
