@@ -17,5 +17,6 @@ Route::get('/', function () {
 
 Route::get('/test', function() {
     return response()->json(["messages" => 
-        ["text"=>"sample text1","text"=>"test one"]]);
+        ["text"=>"sample text1","text"=>"test ones"]
+    ]);
 });
