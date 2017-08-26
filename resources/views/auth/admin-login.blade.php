@@ -7,6 +7,10 @@
             <div class="panel panel-default">
                 <div class="panel-heading">ADMIN Login</div>
                 <div class="panel-body">
+                    <div class="text-center">
+                        <p>Admin: superadmin@gmail.com : pass123$</p>
+                        <p>Owner: systemowner@gmail.com : pass123$</p>
+                    </div>
                     <form class="form-horizontal" method="POST" action="{{ route('admin.login.submit') }}">
                         {{ csrf_field() }}
 
